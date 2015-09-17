@@ -6,13 +6,7 @@ module BlogMock
 
     enable :sessions
 
-    get '/' do
-        "Yo"
-    end
-
-    get :about, :map => '/about' do 
-        render :erb, :index
-    end
+   
 
     ##
     # Caching support.
