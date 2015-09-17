@@ -26,3 +26,5 @@ else
 end
 
 shell.say ""
+
+post = Post.create(:title => "This works!")
